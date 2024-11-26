@@ -5,11 +5,8 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/css/bootstrap.min.css';?>">
 </head>
 <body>
-<div class="navbar navbar-dark bg-dark">
-	<div class="container">
-		<a href="#" class="navbar-brand">CRUD APPLICATION</a>
-	</div>
-</div>
+<?php $this->load->view('navbar'); ?>
+
 <div class="container" style="padding-top: 10px;">
 	<h3>Update User</h3>
 	<hr>
